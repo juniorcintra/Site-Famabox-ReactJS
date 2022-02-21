@@ -25,18 +25,20 @@ export const Container = styled.button`
   &:hover {
     background: transparent;
   }
+
+  @media screen and (max-width: 576px) {
+    width:${({ text2 }) => (text2 !== "" ? `100%;` : `unset;`)};
+  }
 `;
 
 export const Title = styled.span`
-  font-size: ${({ text, text2 }) => (text2 !== "" ? `28px;` : `15px;`)};
+  font-size: ${({ text2 }) => (text2 !== "" ? `28px;` : `15px;`)};
   font-family: "Roboto Condensed", Sans-serif;
   font-weight: bold;
   fill: #ffffff;
   color: #ffffff;
 
-  @media screen and (max-width: 576px) {
-    font-size: 12px;
-  }
+  
 `;
 
 export const SubTitle = styled.span`
@@ -45,4 +47,8 @@ export const SubTitle = styled.span`
   font-weight: bold;
   fill: #ffffff;
   color: #ffffff;
+
+  @media screen and (max-width: 576px) {
+    font-size:${({ text2 }) => (text2 !== "" ? `20px;` : `15px;`)};
+  }
 `;
