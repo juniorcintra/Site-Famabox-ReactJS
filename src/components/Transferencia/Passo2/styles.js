@@ -11,7 +11,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   display: flex;
   flex-direction: column;
@@ -108,6 +108,10 @@ export const DocTED = styled.span`
   color: #ffffff;
   font-family: "Roboto", Sans-serif;
   font-size: 19px;
+
+  @media screen and (max-width: 880px) {
+    font-size: 15px;
+  }
 `;
 
 export const DadoTED = styled.span`
@@ -115,6 +119,9 @@ export const DadoTED = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 19px;
   font-weight: bold;
+  @media screen and (max-width: 880px) {
+    font-size: 15px;
+  }
 `;
 
 export const DivButton = styled.div`
