@@ -17,7 +17,10 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  width: 1100px;
+  width: 90%;
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivRight = styled.div`
@@ -26,10 +29,15 @@ export const DivRight = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   padding: 45px 0;
+
+  @media screen and (max-width: 900px) {
+    align-items:center;
+  }
 `;
 
 export const VendasIMG = styled.img`
   max-width: 465px;
+  width: 90%;
 `;
 
 export const Aumente = styled.span`
@@ -39,6 +47,10 @@ export const Aumente = styled.span`
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.6px;
+
+  @media screen and (max-width: 900px) {
+    text-align:center;
+  }
 `;
 
 export const Quantidade = styled.span`
@@ -46,6 +58,9 @@ export const Quantidade = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 50px;
   font-weight: 600;
+  @media screen and (max-width: 900px) {
+    text-align:center;
+  }
 `;
 
 export const Engajamento = styled.span`
@@ -54,6 +69,9 @@ export const Engajamento = styled.span`
   font-size: 20px;
   font-weight: 400;
   margin: 16px 0%;
+  @media screen and (max-width: 900px) {
+    text-align:center;
+  }
 `;
 
 export const Instituto = styled.span`
@@ -61,4 +79,7 @@ export const Instituto = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 20px;
   font-weight: bold;
+  @media screen and (max-width: 900px) {
+    text-align:center;
+  }
 `;
