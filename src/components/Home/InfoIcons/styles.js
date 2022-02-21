@@ -10,7 +10,7 @@ export const Container = styled.div`
   margin: 0 16px;
 
   @media screen and (max-width: 830px) {
-    margin: 50px 0;
+    margin: 50px 12px;
   }
 `;
 
@@ -29,6 +29,9 @@ export const Title = styled.span`
   width: 100%;
   text-align: center;
   display: block;
+  @media screen and (max-width: 830px) {
+    font-size: 35px;
+  }
 `;
 
 export const Text = styled.span`

@@ -35,9 +35,20 @@ export const Title = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 45px;
   font-weight: 600;
+
+
+  @media screen and (max-width: 830px) {
+    font-size: 35px;
+    text-align: center;
+    width: 90%;
+  }
+
+  
 `;
 
 export const DivLeft = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+    justify-content: center;
 `;
