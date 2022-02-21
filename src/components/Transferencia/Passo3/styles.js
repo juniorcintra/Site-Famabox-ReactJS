@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   display: flex;
   flex-direction: column;
