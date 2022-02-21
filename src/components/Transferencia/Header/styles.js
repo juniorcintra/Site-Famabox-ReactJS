@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 800px;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,10 @@ export const Title = styled.span`
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+
+  @media screen and (max-width: 880px) {
+    font-size: 35px;
+  }
 `;
 
 export const SubTitle = styled.span`
@@ -33,4 +37,9 @@ export const SubTitle = styled.span`
   font-size: 50px;
   font-weight: 600;
   margin: 30px 0;
+
+  @media screen and (max-width: 880px) {
+    font-size: 40px;
+    text-align: center;
+  }
 `;

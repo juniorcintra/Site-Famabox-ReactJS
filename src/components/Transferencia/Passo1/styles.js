@@ -25,10 +25,15 @@ export const Title = styled.span`
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 30px;
+
+  @media screen and (max-width: 880px) {
+    font-size: 35px;
+    text-align: center;
+  }
 `;
 
 export const Divider = styled.div`
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: #fff;
   margin-bottom: 30px;
@@ -49,4 +54,9 @@ export const SubTitle = styled.span`
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 30px;
+
+  @media screen and (max-width: 880px) {
+    font-size: 18px;
+    text-align: center;
+  }
 `;

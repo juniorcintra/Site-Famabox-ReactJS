@@ -6,10 +6,14 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Column = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 385px;
   display: flex;
   flex-direction: column;
