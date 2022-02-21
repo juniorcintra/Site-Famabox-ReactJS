@@ -18,8 +18,8 @@ export default function Home() {
     <Container>
       <Menu />
       <Banner />
-      {/* <MaisVendas />
-      <Carrousel />
+      <MaisVendas />
+      {/* <Carrousel />
       <Perfis />
       <Numeros />
       <NossosClientes />

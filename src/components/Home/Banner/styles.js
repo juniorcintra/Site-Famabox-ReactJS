@@ -7,14 +7,7 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
-
-  // @media screen and (max-width: 1100px) {
-  //   transform: scale(1.3);
-  //   right: 154px;
-  // }
-
-  
+  padding: 100px 0;  
 `;
 
 export const Content = styled.div`
@@ -25,7 +18,7 @@ export const Content = styled.div`
   max-width: 1000px;
   width: 90%;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     flex-direction: column;
   }
 
@@ -42,7 +35,7 @@ export const DivRight = styled.div`
   padding: 45px 0;
   max-width: 450px;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     align-items: center;
   }
 `;
@@ -60,7 +53,7 @@ export const Aumente = styled.span`
   font-weight: 400;
   text-transform: uppercase;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     text-align:center;
   }
 `;
@@ -70,7 +63,7 @@ export const Quantidade = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 52px;
   font-weight: 600;
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     text-align:center;
   }
 `;
@@ -81,7 +74,7 @@ export const Engajamento = styled.span`
   font-size: 20px;
   font-weight: 400;
   margin: 16px 0;
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     text-align:center;
   }
 `;
