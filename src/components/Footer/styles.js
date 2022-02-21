@@ -8,6 +8,11 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 880px) {
+    height:unset;
+    padding: 25px 0;
+  }
 `;
 
 export const Content = styled.div`
@@ -16,7 +21,12 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1000px;
-  width: 1000px;
+  width: 90%;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 880px) {
+    flex-direction: column;
+  }
 `;
 
 export const DivLeft = styled.div`
@@ -26,6 +36,10 @@ export const DivLeft = styled.div`
   align-items: center;
   width: 255px;
   height: 120px;
+
+  @media screen and (max-width: 880px) {
+    height: unset;
+  }
 `;
 
 export const Email = styled.span`
@@ -34,6 +48,10 @@ export const Email = styled.span`
 
 export const Termos = styled.button`
   color: #fff;
+
+  @media screen and (max-width: 880px) {
+    margin: 50px 0;
+  }
 `;
 
 export const DivRight = styled.div`
@@ -41,6 +59,10 @@ export const DivRight = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media screen and (max-width: 880px) {
+    align-items:center;
+  }
 `;
 
 export const Cnpj = styled.span`
