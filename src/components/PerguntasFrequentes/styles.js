@@ -56,6 +56,8 @@ export const DivTitle = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
+
+  
 `;
 
 export const Title = styled.span`
@@ -67,6 +69,8 @@ export const Title = styled.span`
   letter-spacing: 1.6px;
   text-align: center;
   margin: 16px 0;
+
+  
 `;
 
 export const SubTitle = styled.span`
@@ -74,6 +78,10 @@ export const SubTitle = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 45px;
   font-weight: 600;
+
+  @media screen and (max-width: 576px) {
+   text-align: center;
+  }
 `;
 
 export const ButtonNext = styled.button`
@@ -141,12 +149,19 @@ export const DivBottom = styled.div`
   margin-bottom: 50px;
 
   .accordion-header {
-    width: 500px;
+    width: 90%;
+    min-width: 320px;
   }
   .accordion-collapse {
-    width: 500px;
+    width: 90%;
+    min-width: 320px;
   }
-`;
+
+  @media screen and (max-width: 576px) {
+    flex-direction: column;
+    width: 90%;
+  }
+  `;
 
 export const Column = styled.div`
   display: flex;
@@ -177,5 +192,9 @@ export const Column = styled.div`
   .accordion-button {
     color: #fff;
     background-color: unset;
+  }
+
+  @media screen and (max-width: 576px) {
+    width: 90%;
   }
 `;
