@@ -19,14 +19,14 @@ export default function Home() {
       <Menu />
       <Banner />
       <MaisVendas />
-      {/* <Carrousel />
+      <Carrousel />
       <Perfis />
       <Numeros />
       <NossosClientes />
       <PerguntasFrequentes />
       <Comprar />
       <InfoCompras />
-      <Footer /> */}
+      <Footer />
     </Container>
   );
 }

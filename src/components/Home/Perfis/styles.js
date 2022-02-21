@@ -41,7 +41,11 @@ export const Content = styled.div`
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  width: 1100px;
+  width: 90%;
+
+  @media screen and (max-width: 1000px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const DivRight = styled.div`
@@ -51,16 +55,30 @@ export const DivRight = styled.div`
   align-items: center;
   padding: 45px 0;
   height: 520px;
+
+  @media screen and (max-width: 576px) {
+    height: unset;
+  }
 `;
 
 export const VendasIMG = styled.img`
   max-width: 465px;
+  width:90%;
 `;
 
 export const ContentRight = styled.div`
-  width: 560px;
+  max-width: 560px;
+  width:90%;
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 576px) {
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 550px) {
+    flex-direction: column;
+  }
 `;
 
 export const Column = styled.div`
@@ -70,6 +88,11 @@ export const Column = styled.div`
   align-items: flex-start;
   width: 230px;
   margin: 0 8px;
+
+  
+  @media screen and (max-width: 550px) {
+    padding: 25px 0;
+  }
 `;
 
 export const Linha = styled.div`

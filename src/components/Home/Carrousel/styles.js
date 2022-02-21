@@ -42,6 +42,9 @@ export const Title = styled.span`
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.6px;
+  @media screen and (max-width: 830px) {
+    text-align: center;
+  }
 `;
 
 export const SubTitle = styled.span`
@@ -49,6 +52,10 @@ export const SubTitle = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 45px;
   font-weight: 600;
+
+  @media screen and (max-width: 830px) {
+    text-align: center;
+  }
 `;
 
 export const ButtonNext = styled.button`
@@ -77,7 +84,8 @@ export const ButtonNext = styled.button`
 `;
 
 export const Slide = styled.div`
-  width: 490px;
+  max-width: 490px;
+  width: 90%;
   background-color: #fff;
   margin: 0 50px;
   border-radius: 10px 10px 10px 10px;
@@ -102,6 +110,10 @@ export const DivButtons = styled.div`
   justify-content: space-between;
   align-items: center;
   align-self: flex-end;
+
+  @media screen and (max-width: 830px) {
+    align-self: center;
+  }
 `;
 
 export const DivBottom = styled.div`
@@ -113,4 +125,8 @@ export const DivBottom = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+
+  @media screen and (max-width: 830px) {
+    margin-top: 0;
+  }
 `;
