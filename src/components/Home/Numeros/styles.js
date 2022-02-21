@@ -18,7 +18,7 @@ export const Content = styled.div`
   max-width: 1000px;
   width: 1000px;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 1100px) {
     flex-direction: column;
   }
 `;
@@ -31,7 +31,7 @@ export const DivRight = styled.div`
   padding: 45px 0;
   max-width: 450px;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 1100px) {
     align-items: center;
   }
 `;
@@ -44,7 +44,7 @@ export const Aumente = styled.span`
   text-transform: uppercase;
   letter-spacing: 1.6px;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 1100px) {
     text-align: center;
   }
 `;
@@ -56,7 +56,7 @@ export const Quantidade = styled.span`
   font-weight: 600;
   width: 250px;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 1100px) {
     text-align: center;
   }
 `;
@@ -72,7 +72,7 @@ export const DivLeft = styled.div`
   display: flex;
   flex-direction: row;
 
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 830px) {
     flex-direction: column;
   }
 `;

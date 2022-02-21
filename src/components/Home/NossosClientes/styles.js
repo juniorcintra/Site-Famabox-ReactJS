@@ -29,6 +29,11 @@ export const Content = styled.div`
   .swiper-pagination-bullet-active {
     background: #fff;
   }
+
+
+  @media screen and (max-width: 576px) {
+    align-items: center;
+  }
 `;
 
 export const ButtonPrev = styled.button`
@@ -56,6 +61,10 @@ export const ButtonPrev = styled.button`
     left: 48px;
     top: 40%;
   }
+
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
 `;
 
 export const DivTitle = styled.div`
@@ -64,6 +73,12 @@ export const DivTitle = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 16px;
+
+  @media screen and (max-width: 576px) {
+    width:90%;
+
+    margin: 0 auto;
+  }
 `;
 
 export const Title = styled.span`
@@ -75,6 +90,10 @@ export const Title = styled.span`
   letter-spacing: 1.6px;
   text-align: center;
   margin: 16px 0;
+
+  @media screen and (max-width: 576px) {
+    text-align: center;
+  }
 `;
 
 export const SubTitle = styled.span`
@@ -82,6 +101,10 @@ export const SubTitle = styled.span`
   font-family: "Roboto", Sans-serif;
   font-size: 45px;
   font-weight: 600;
+
+  @media screen and (max-width: 576px) {
+    text-align: center;
+  }
 `;
 
 export const ButtonNext = styled.button`
@@ -109,6 +132,10 @@ export const ButtonNext = styled.button`
   @media screen and (max-width: 576px) {
     right: 48px;
     top: 40%;
+  }
+
+  @media screen and (max-width: 1100px) {
+    display: none;
   }
 `;
 
